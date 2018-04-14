@@ -57,20 +57,28 @@ main div {
 
 main div h1 {
   font-size: 20px;
-  margin-bottom: 1em;
+  margin-bottom: .6em;
 }
 
 main div p {
-  height: 300px;
+  height: 310px;
   overflow: auto;
-  margin-bottom: 1em;
+  margin-bottom: .6em;
 }
 
 main div form input {
   background-color: #000;
+  border-radius: 5px;
   color: #fff;
-  width: 150px;
-  height: 30px;
+  width: 170px;
+  height: 40px;
+  font-size: 16px;
+  transition-duration: 350ms;
+}
+
+main div form input:hover {
+  background-color: #fff;
+  color: #000
 }
 
 footer {
